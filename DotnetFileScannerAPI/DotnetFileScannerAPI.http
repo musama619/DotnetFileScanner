@@ -1,0 +1,5 @@
+@dotnet_file_scanner_HostAddress = http://localhost:5168
+
+# Testing File Upload Endpoint
+POST {{dotnet_file_scanner_HostAddress}}/upload
+Content-Type: multipart/form-data
